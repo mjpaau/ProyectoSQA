@@ -1,0 +1,14 @@
+version: '3'
+
+services:
+  miapp-reserva:  
+    build:
+      context: .  
+      dockerfile: dockerfile  
+    ports:
+      - "8282:8282"  
+    volumes:
+      - .:/usr/src/app  
+      - /usr/src/app/node_modules 
+    environment:
+      - NODE_ENV=development 

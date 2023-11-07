@@ -1,0 +1,90 @@
+/* Estilos para la sección de registro */
+.col-md-6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 30px; /* Ajusta el margen inferior según sea necesario */
+}
+
+.register-section {
+  width: 100%;
+  padding: 20px;
+  background-color: #C6D3FF;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.register-section h2 {
+  margin-bottom: 20px;
+  color: #00004E;
+  text-align: center;
+}
+
+.textbox {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.textbox input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FF9800;
+  color: white;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #00276C;
+}
+
+/* Estilos para los botones de redes sociales */
+.social-login {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.facebook-btn,
+.twitter-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: calc(100% - 40px); /* Ajusta el ancho del botón según sea necesario */
+}
+
+.facebook-btn {
+  background-color: #3b5998;
+  color: white;
+}
+
+.twitter-btn {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.facebook-btn:hover {
+  background-color: #2d4373;
+}
+
+.twitter-btn:hover {
+  background-color: #0b71a6;
+}
+
+
+
